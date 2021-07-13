@@ -536,7 +536,7 @@ top: -54%;
 }	
  @media (min-width: 402px) {	
 	.clients__text{margin-bottom: -11%}
-	 .featured__wrapper>div{width: 46%;} 
+	 .featured__wrapper>div{width: 60%;} 
 	
 
 }
