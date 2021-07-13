@@ -219,8 +219,12 @@ footer .df {
 	margin: 2.5% 8px 5.5%;
 }
 		.skills__wrapper>div,.about__wrapper>div,.share-buttons{
-width: 262px;
+
 align-items: center;
+}	
+.skills__wrapper>div,.share-buttons{
+width: 262px;
+
 }	
 .chinen,.skills__wrapper>div,.about__wrapper>div{
 	border-radius: 2px;
@@ -508,7 +512,7 @@ margin: 1% 2%;
 }
 @media (min-width: 322px){
 	.featured__wrapper > div {
-	width: 45%;
+	width:100%;
 }
 	.about__wrapper > div {
 	width: 80%;
@@ -532,9 +536,9 @@ top: -54%;
 }	
  @media (min-width: 402px) {	
 	.clients__text{margin-bottom: -11%}
-	 .featured__wrapper>div{width: 46%;}.about__wrapper > div {
-	width: 46%;
-}
+	 .featured__wrapper>div{width: 46%;} 
+	
+
 }
 
  @media (min-width: 441px) {	
