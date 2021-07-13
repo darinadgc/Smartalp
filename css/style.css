@@ -319,9 +319,12 @@ background-color: #ff5c36;
 opacity: 0.5;
 }
 .featured__wrapper > div {
-	flex: 0 1 70%;
+	
 	width: 360px;
 	min-height: 223px;
+	flex-shrink: 0;
+	flex-grow: 1;
+flex-basis:  70%;
 }
 
 .partner img {
