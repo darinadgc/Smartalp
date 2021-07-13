@@ -319,7 +319,7 @@ background-color: #ff5c36;
 opacity: 0.5;
 }
 .featured__wrapper > div {
-
+min-height: 223px;
 	width: 70%;
 	
 	
@@ -503,9 +503,15 @@ margin: 1% 2%;
 .clients__text{
 	margin-bottom: -15%
 }
+.about__wrapper > div {
+	width: 100%;
+}
 @media (min-width: 322px){
 	.featured__wrapper > div {
 	width: 45%;
+}
+	.about__wrapper > div {
+	width: 80%;
 }
 
 	
@@ -526,7 +532,9 @@ top: -54%;
 }	
  @media (min-width: 402px) {	
 	.clients__text{margin-bottom: -11%}
-	 .featured__wrapper>div{width: 46%;}
+	 .featured__wrapper>div{width: 46%;}.about__wrapper > div {
+	width: 46%;
+}
 }
 
  @media (min-width: 441px) {	
